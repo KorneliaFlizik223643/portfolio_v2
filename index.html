@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chee Hwa Tang | Full Stack Developer</title>
+		<meta
+			name="description"
+			content="A passionate full stack developer committed to building applications and collaborating with others on various projects with the mission of contributing to society."
+		/>
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="
+        default-src 'self';
+        img-src 'self' https://res.cloudinary.com;
+        script-src 'self' 'unsafe-inline' https://use.fontawesome.com https://fonts.googleapis.com https://cdn.jsdelivr.net;
+        style-src 'self' 'unsafe-inline' https://use.fontawesome.com https://fonts.googleapis.com;
+        font-src 'self' https://fonts.googleapis.com https://use.fontawesome.com https://fonts.gstatic.com"
+		/>
+
+		<!-- Facebook Open Graph data -->
+		<meta property="og:title" content="Chee Hwa Tang | Full Stack Developer" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://cheehwatang.com/" />
+		<meta
+			property="og:image"
+			content="https://cheehwatang.com/images/website_home.png"
+		/>
+		<meta
+			property="og:description"
+			content="A passionate full stack developer committed to building applications and collaborating with others on various projects with the mission of contributing to society."
+		/>
+		<meta property="og:site_name" content="cheehwatang.com" />
+
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@cheehwatang" />
+		<meta name="twitter:title" content="Chee Hwa Tang | Full Stack Developer" />
+		<meta
+			name="twitter:description"
+			content="A passionate full stack developer committed to building applications and collaborating with others on various projects with the mission of contributing to society."
+		/>
+		<meta name="twitter:creator" content="@cheehwatang" />
+		<meta
+			name="twitter:image:src"
+			content="https://cheehwatang.com/images/website_home.png"
+		/>
+
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href="images/cheehwatang_logo_small.png"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="preload"
+			as="style"
+			href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,600,900&display=swap"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,600,900&display=swap"
+			media="print"
+			onload="this.onload=null;this.removeAttribute('media');"
+		/>
+		<noscript
+			><link
+				rel="stylesheet"
+				href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,600,900&display=swap"
+		/></noscript>
+		<link
+			rel="preload"
+			as="style"
+			href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+			media="print"
+			onload="this.onload=null;this.removeAttribute('media');"
+		/>
+		<noscript
+			><link
+				rel="stylesheet"
+				href="https://use.fontawesome.com/releases/v6.1.2/css/all.css"
+		/></noscript>
+	</head>
+	<body>
+		<!-- Navigation Bar at the Top of the Page -->
+		<header>
+			<a href="https://cheehwatang.com">
+				<svg width="180" height="40.5">
+					<title>Logo of cheehwatang.com</title>
+					<use href="#logo-svg" width="180" height="40.5" />
+				</svg>
+			</a>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">My Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#projects" class="nav__link">My Projects</a>
+					</li>
+					<li class="nav__item">
+						<a href="#about" class="nav__link">About me</a>
+					</li>
+					<li class="nav__item">
+						<a href="#contact" class="nav__link">Contact</a>
+					</li>
+					<li class="nav__item">
+						<a
+							href="./document/CV of Tang Chee Hwa.pdf"
+							target="_blank"
+							class="btn-outline"
+							>Resumé</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Introduction Section -->
+		<section class="intro" id="home">
+			<div class="section__container--intro">
+				<h1 class="section__title section__title--intro">
+					Hi <span class="wave">👋</span> I am
+					<strong>Chee Hwa <span class="underline">Tang</span></strong>
+				</h1>
+				<p class="section__subtitle section__subtitle--intro">
+					Full Stack Developer
+				</p>
+				<img
+					src="https://res.cloudinary.com/dsx50recn/image/upload/c_fill,h_560,w_560/v1681614821/Portfolio%20Website/profile_picture_hjf5dr.webp"
+					alt="a picture of Chee Hwa Tang smiling"
+					class="intro__img"
+					loading="eager"
+				/>
+			</div>
+			<div>
+				<h2 class="fs-h3">Building your digital dreams into reality.</h2>
+			</div>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://github.com/cheehwatang"
+						target="_blank"
+						aria-label="Find me on Github"
+					>
+						<span class="sr-only sr-only-focusable">Find me on Github</span>
+						<i class="fa-brands fa-github"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://www.linkedin.com/in/cheehwatang/"
+						target="_blank"
+						aria-label="Find me on LinkedIn"
+					>
+						<span class="sr-only sr-only-focusable">Find me on LinkedIn</span>
+						<i class="fa-brands fa-linkedin-in"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://twitter.com/cheehwatang"
+						target="_blank"
+						aria-label="Find me on Twitter"
+					>
+						<span class="sr-only sr-only-focusable">Find me on Twitter</span>
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<div class="wave-spacer wave-base-to-black"></div>
+
+		<!-- My Skills Section -->
+		<section class="my-skills" id="skills">
+			<h2 class="section__title section__title--skills">Skills</h2>
+			<div class="skills">
+				<div class="skill">
+					<h3>Front-end Design</h3>
+					<ul class="skill-list">
+						<li class="skill-list__item">HTML, CSS, JavaScript</li>
+						<li class="skill-list__item">Responsive UI/UX Design</li>
+						<li class="skill-list__item">React & Redux</li>
+						<li class="skill-list__item">Wireframe Design (Figma)</li>
+					</ul>
+				</div>
+				<!-- / skill -->
+
+				<div class="skill">
+					<h3>Back-end Engineering</h3>
+					<ul class="skill-list">
+						<li class="skill-list__item">Ruby on Rails</li>
+						<li class="skill-list__item">NodeJS (In-Progress)</li>
+						<li class="skill-list__item">Querying APIs</li>
+						<li class="skill-list__item">MVC Design</li>
+					</ul>
+				</div>
+				<!-- / skill -->
+
+				<div class="skill">
+					<h3>Databases & DevOps</h3>
+					<ul class="skill-list">
+						<li class="skill-list__item">SQL, PostgreSQL</li>
+						<li class="skill-list__item">Deployment with Heroku</li>
+						<li class="skill-list__item">Agile Methodologies with Kanban</li>
+						<li class="skill-list__item">CI/CD</li>
+					</ul>
+				</div>
+				<!-- / skill -->
+			</div>
+			<!-- / skills -->
+		</section>
+
+		<div class="wave-spacer-narrow wave-black-to-base-narrow"></div>
+		<div class="wave-spacer-narrow wave-base-to-black-narrow"></div>
+
+		<!-- My Projects Section -->
+		<section class="my-projects" id="projects">
+			<div id="tsparticles"></div>
+			<h2 class="section__title section__title--projects">My projects</h2>
+
+			<div class="portfolio">
+				<!-- Soundstate -->
+				<a href="#soundstate" class="portfolio__item">
+					<img
+						src="https://res.cloudinary.com/dsx50recn/image/upload/v1681616596/Portfolio%20Website/soundstate_landing_ugec0o.webp"
+						alt="landing page of SoundState app"
+						class="portfolio__img"
+						loading="lazy"
+					/>
+				</a>
+				<!-- Github Readme Daily Quotes -->
+				<a href="#github-readme-daily-quotes" class="portfolio__item">
+					<img
+						src="https://res.cloudinary.com/dsx50recn/image/upload/v1686468890/Github%20Readme%20Daily%20Quotes/github-readme-daily-quotes-landing_j9vnae.webp"
+						alt="Github Readme Daily Quotes landing page"
+						class="portfolio__img"
+						loading="lazy"
+					/>
+				</a>
+			</div>
+			<div class="portfolio__section" id="soundstate">
+				<h3>SoundState</h3>
+				<div class="portfolio__description">
+					<div class="portfolio__summary">
+						<h4 class="mobile-hidden">SUMMARY</h4>
+						<p>
+							SoundState is an app that generates a personalized music playlist
+							based on the user's mood, curated from their Spotify Liked Songs.
+							Its most standout feature is the creation of an image that
+							visually represents the mood and songs of the playlist, making
+							music sharing and discovery a fun and engaging experience. Our
+							4-person team developed SoundState during the final 2 weeks of our
+							bootcamp.
+						</p>
+						<div class="portfolio__tech-stack">
+							<h4>TECH</h4>
+							<ul>
+								<li>Ruby on Rails</li>
+								<li>AJAX & Stimulus JS</li>
+								<li>Three.js</li>
+								<li>Sass</li>
+								<li>PostgreSQL</li>
+								<li>Heroku</li>
+								<li>Spotify API</li>
+								<li>OpenAI API</li>
+							</ul>
+						</div>
+						<div>
+							<a
+								href="https://www.soundstate.live/"
+								target="_blank"
+								class="btn btn-accent-dark"
+								aria-label="Visit SoundState"
+								>Visit SoundState <i class="fa-solid fa-angle-right"></i
+							></a>
+						</div>
+						<div>
+							<a
+								href="https://github.com/weepotty/soundstate"
+								target="_blank"
+								class="btn btn-accent-dark"
+								aria-label="Visit SoundState on Github"
+								><span class="sr-only sr-only-focusable"
+									>Visit SoundState on Github</span
+								><i class="fa-brands fa-github fa-2x"></i
+							></a>
+						</div>
+					</div>
+					<div class="portfolio__description__img">
+						<a
+							href="https://www.soundstate.live/"
+							target="_blank"
+							aria-label="Visit SoundState"
+						>
+							<span class="sr-only sr-only-focusable">Visit SoundState</span>
+							<img
+								src="https://res.cloudinary.com/dsx50recn/image/upload/v1681616602/Portfolio%20Website/soundstate-landing-large_pcgylx.webp"
+								alt="soundstate landing page"
+								loading="lazy"
+							/>
+						</a>
+					</div>
+					<div class="portfolio__description__why">
+						<h4>Why This Project?</h4>
+						<p>
+							As an audiophile, I have always loved listening to music from
+							various genres. I enjoy curating playlists for different moods and
+							activities, such as high-tempo music for runs and calm music for
+							strolling in the park.
+						</p>
+						<p>
+							I jumped at the first opportunity to work on this project because
+							I love the idea of using AI to enhance the listening experience by
+							intelligently generating music playlists based on mood. Moreover,
+							the innovative concept of using Dall-E to generate images that
+							represent a music playlist is intriguing.
+						</p>
+					</div>
+					<div class="portfolio__description__learnings">
+						<h4>What I've Learned</h4>
+						<ul>
+							<li>
+								Project planning and ideation using user stories and wireframe
+								design using <span>Figma</span>.
+							</li>
+							<li>
+								Project management with <span>Agile methodologies</span>,
+								including <span>Kanban workflow</span> and daily stand-up
+								meetings.
+							</li>
+							<li>
+								Designed app architecture with the <span>MVC pattern</span>
+								(Model-View-Controller)
+							</li>
+							<li>
+								Applied <span>RESTful principles</span> for backend
+								architecture.
+							</li>
+							<li>
+								Mobile-first design for front-end with
+								<span>progressive web app (PWA)</span>
+								capabilities.
+							</li>
+							<li>
+								Implemented <span>OAuth 2.0</span> with Spotify as 3rd-party
+								client for user login/signup.
+							</li>
+							<li>
+								Integrated with <span>OpenAI API</span> for GPT-3.5 and Dall-E 2
+							</li>
+							<li>
+								Setup <span>background jobs</span> using
+								<span>Redis server</span> for database syncing with user's
+								Spotify account.
+							</li>
+							<li>
+								Integrated <span>automated testing</span> in the CI pipeline
+								using Github Actions.
+							</li>
+						</ul>
+						<p>
+							More on
+							<a href="https://github.com/weepotty/soundstate" target="_blank"
+								>Github README</a
+							>.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="portfolio__section" id="github-readme-daily-quotes">
+				<h3>Github Readme Daily Quotes</h3>
+				<div class="portfolio__description">
+					<div class="portfolio__summary">
+						<h4 class="mobile-hidden">SUMMARY</h4>
+						<p>
+							Github Readme Daily Quotes is an SVG widget that can be embedded
+							in Markdown documents, particularly in Github profiles, to display
+							daily inspirational quotes. By utilizing various Quotes APIs and
+							Serverless Function, users can customize the visual appearance of
+							the quote card, as well as the category of the quotes, such as
+							programming, stoicism, happiness, and more. Since it is an SVG
+							image, it can also be used on websites.
+						</p>
+						<div class="portfolio__tech-stack">
+							<h4>TECH</h4>
+							<ul>
+								<li>TypeScript</li>
+								<li>SVG</li>
+								<li>Axios</li>
+								<li>Jest</li>
+								<li>Github Actions</li>
+								<li>Vercel</li>
+							</ul>
+						</div>
+						<div>
+							<a
+								href="https://github.com/cheehwatang/github-readme-daily-quotes"
+								target="_blank"
+								class="btn btn-accent-dark"
+								aria-label="Visit Github Readme Daily Quotes on Github"
+								><span class="sr-only sr-only-focusable"
+									>Visit Github Readme Daily Quotes on Github</span
+								><i class="fa-brands fa-github fa-2x"></i
+							></a>
+						</div>
+					</div>
+					<div class="portfolio__description__img">
+						<a
+							href="https://github.com/cheehwatang/github-readme-daily-quotes"
+							target="_blank"
+							aria-label="Visit Github Readme Daily Quotes"
+						>
+							<span class="sr-only sr-only-focusable"
+								>Visit Github Readme Daily Quotes</span
+							>
+							<img
+								src="./images/github_readme_daily_quotes/github_readme_daily_quotes_logo.svg"
+								alt="Github Readme Daily Quotes Logo"
+								loading="lazy"
+							/>
+						</a>
+						<br />
+						<h4>DEMO</h4>
+						<a
+							href="https://github.com/cheehwatang/github-readme-daily-quotes"
+							target="_blank"
+							aria-label="Visit Github Readme Daily Quotes"
+						>
+							<span class="sr-only sr-only-focusable"
+								>Visit Github Readme Daily Quotes</span
+							>
+							<img
+								src="./images/github_readme_daily_quotes/github-readme-daily-quotes-demo.svg"
+								alt="Github Readme Daily Quotes Quote Card"
+								loading="lazy"
+							/>
+						</a>
+					</div>
+					<div class="portfolio__description__why">
+						<h4>Why This Project?</h4>
+						<p>
+							While developing my Github Profile, I came across various creative
+							widgets that the community had developed, such as the Github Stats
+							Card and Spotify Card. Being interested in inspirational and
+							thought-provoking quotes, I wanted to incorporate daily
+							inspirational quotes into my Github Profile.
+						</p>
+						<p>
+							After searching extensively, I couldn't find a suitable widget
+							that met my needs. Therefore, I took this opportunity to develop
+							the Github Readme Daily Quotes widget as my contribution to the
+							open-source community. Additionally, this project serves as a
+							great platform for practicing TypeScript, gaining a better
+							understanding of Serverless Functions, and integrating automated
+							testing.
+						</p>
+					</div>
+					<div class="portfolio__description__learnings">
+						<h4>What I've Learned</h4>
+						<ul>
+							<li>
+								Understand <span>TypeScript</span>'s strict typing and
+								interfaces.
+							</li>
+							<li><span>Unit testing</span> using Jest.</li>
+							<li>
+								Manipulation of SVG to display the quote cards, along with
+								customizing the themes and fonts.
+							</li>
+							<li><span>Serverless Function</span> deployment using Vercel.</li>
+							<li>
+								Continuous Integration with Github Action, for
+								<span>automated testing</span>
+								with Jest, styling with Prettier and linting with ESLint.
+							</li>
+							<li>
+								Understand the utilities of Github community health files,
+								including contribution guidelines, code of conduct, license and
+								issue templates.
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="wave-spacer wave-black-to-base"></div>
+
+		<!-- About Me Section -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">
+				A Curious Explorer
+			</p>
+
+			<div class="about-me__body">
+				<p>
+					As a Food Technologist with five years of industry experience
+					specializing in natural food coloring solutions for new product
+					development, I have developed strong
+					<span>problem solving</span> skills with a keen
+					<span>attention to detail</span>, enabling me to consistently deliver
+					tailored solutions to clients. In addition, my
+					<span>effective communication</span> skills have been instrumental
+					when collaborating with the sales team to promote our products and
+					services to customers, resulting in significant business growth.
+				</p>
+				<p>
+					Following an extensive spiritual exploration and self-discovery, I
+					have gained a clear understanding of my values and recognized the
+					blessings in my life. My mission is to improve the lives of others and
+					<span>contribute</span> to a brighter future for generations to come,
+					by carrying forward the legacy of generosity and kindness bestowed
+					upon me by my predecessors.
+				</p>
+				<p>
+					Recognizing the profound impact of the technology industry, I enrolled
+					in the Le Wagon Web Development course, where I acquired skills in
+					designing and building apps that enhance people's lives. During the
+					course, I learned to be <span>adaptable</span> when learning new
+					concepts and <span>collaborating</span> with teammates of diverse
+					backgrounds. I was surprised that front-end development stirred my
+					<span>creativity</span>, allowing me to code beautiful and accessible
+					apps.
+				</p>
+				<p>
+					Since completing the course, I have continuously improved my technical
+					skills and created web apps within teams to deliver value to others. I
+					am eager to apply my skills to create innovative apps that make a
+					positive impact in the world.
+				</p>
+				<p>
+					In my free time, I love to 🏃‍♂️ run, 🚴 cycle, 🏊‍♂️ swim and 🛼
+					inline-skating, or simply hangout with friends over a ☕ coffee or 🍻
+					beers.
+				</p>
+			</div>
+
+			<img
+				src="https://res.cloudinary.com/dsx50recn/image/upload/c_fill,h_800,w_540/v1681614821/Portfolio%20Website/profile_picture_rinjani_a9hyoc.webp"
+				alt="portrait of Chee Hwa Tang at Mount Rinjani."
+				class="about-me__img"
+				loading="lazy"
+			/>
+		</section>
+
+		<!-- Contact Section -->
+		<section class="contact-me" id="contact">
+			<h2 class="section__title section__title--contact">
+				Looking for a new addition to your team?
+			</h2>
+			<p class="contact-me__body">
+				I am currently available to join a team or company.<br />
+				Additionally, I am looking for collaborations to develop apps and expand
+				my expertise as a full stack developer. Please feel free to contact me
+				for any questions or to simply say hi.
+			</p>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://github.com/cheehwatang"
+						target="_blank"
+						aria-label="Find me on Github"
+					>
+						<span class="sr-only sr-only-focusable">Find me on Github</span>
+						<i class="fa-brands fa-github"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://www.linkedin.com/in/cheehwatang/"
+						target="_blank"
+						aria-label="Find me on LinkedIn"
+					>
+						<span class="sr-only sr-only-focusable">Find me on LinkedIn</span>
+						<i class="fa-brands fa-linkedin-in"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a
+						class="social-list__link"
+						href="https://twitter.com/cheehwatang"
+						target="_blank"
+						aria-label="Find me on Twitter"
+					>
+						<span class="sr-only sr-only-focusable">Find me on Twitter</span>
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+				</li>
+			</ul>
+			<div class="resume-btn">
+				<a
+					href="./document/CV of Tang Chee Hwa.pdf"
+					target="_blank"
+					class="btn-outline"
+					>Resumé</a
+				>
+			</div>
+		</section>
+
+		<div class="wave-spacer-narrow wave-base-to-black-narrow"></div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<a
+				href="https://github.com/cheehwatang"
+				target="_blank"
+				class="footer__link"
+				>Designed & Built by Chee Hwa <span class="underline">Tang</span></a
+			>
+		</footer>
+
+		<!-- SVG -->
+		<!-- Logo -->
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none" version="1.0">
+			<symbol id="logo-svg" width="400" height="90" viewBox="50 157 280 60">
+				<path
+					fill="#3d3d3d"
+					d="M81.782 170.5v1.359h.25c.352 0 .692.027 1.016.078.32.055.601.157.843.313.25.156.442.382.579.671.144.293.218.68.218 1.157v17.406c0 .5-.074.907-.218 1.22a1.646 1.646 0 0 1-.564.702 2.01 2.01 0 0 1-.843.328 6.204 6.204 0 0 1-1.031.078h-.25v1.359h8.733v-1.36h-.093c-.367 0-.71-.019-1.03-.062a2.387 2.387 0 0 1-.86-.297 1.632 1.632 0 0 1-.579-.671c-.136-.29-.202-.672-.202-1.14v-6.86c0-.79.078-1.508.234-2.157a5.218 5.218 0 0 1 .719-1.656c.32-.468.726-.82 1.218-1.062.5-.25 1.087-.376 1.766-.376.657 0 1.207.103 1.656.298a2.55 2.55 0 0 1 1.109.859c.281.375.485.84.61 1.39.125.555.187 1.184.187 1.891v11.203h5.641v-1.36h-.094c-.356 0-.687-.022-1-.077-.304-.05-.57-.16-.797-.328a1.62 1.62 0 0 1-.515-.703c-.125-.312-.188-.72-.188-1.22v-7.687c0-1.102-.133-2.054-.39-2.859-.25-.8-.621-1.457-1.11-1.969a4.242 4.242 0 0 0-1.797-1.14c-.711-.25-1.522-.376-2.437-.376-2.218 0-3.813.981-4.782 2.938h-.156c.02-.3.04-.613.063-.938.02-.27.035-.566.047-.89.007-.32.016-.628.016-.921V170.5zm70.374 0v1.359h.25c.352 0 .692.027 1.016.078.32.055.602.157.844.313.25.156.442.382.578.671.145.293.22.68.22 1.157v17.406c0 .5-.075.907-.22 1.22a1.644 1.644 0 0 1-.562.702 2.016 2.016 0 0 1-.845.328 6.204 6.204 0 0 1-1.03.078h-.25v1.359h8.734v-1.36h-.094c-.367 0-.71-.019-1.03-.062a2.387 2.387 0 0 1-.86-.297 1.63 1.63 0 0 1-.578-.671c-.136-.29-.203-.672-.203-1.14v-6.86c0-.79.077-1.508.233-2.157a5.218 5.218 0 0 1 .72-1.656c.32-.468.727-.82 1.22-1.062.5-.25 1.084-.376 1.764-.376.656 0 1.207.103 1.656.298.457.188.829.476 1.11.859.281.375.485.84.61 1.39.125.555.187 1.184.187 1.891v11.203h5.64v-1.36h-.093a5.81 5.81 0 0 1-1.001-.077c-.305-.05-.57-.16-.796-.328a1.623 1.623 0 0 1-.517-.703c-.125-.312-.187-.72-.187-1.22v-7.687c0-1.102-.132-2.054-.39-2.859-.25-.8-.621-1.457-1.11-1.969a4.237 4.237 0 0 0-1.796-1.14c-.711-.25-1.524-.376-2.438-.376-2.219 0-3.812.981-4.781 2.938h-.156c.02-.3.038-.613.062-.938a24.868 24.868 0 0 0 .063-1.811V170.5zm85.925 3.265c-.168.836-.366 1.532-.593 2.094a4.781 4.781 0 0 1-.89 1.422c-.367.375-.782.641-1.25.797a4.097 4.097 0 0 1-1.282.234v1.313h2.47v10.843c0 .93.085 1.715.264 2.36.188.648.469 1.168.844 1.562.383.387.876.665 1.47.829.593.176 1.3.265 2.124.265.258 0 .531-.015.812-.047a7.53 7.53 0 0 0 .813-.109c.257-.043.5-.095.719-.157.226-.063.41-.125.547-.187v-1.422c-.344.062-.684.118-1.016.157-.325.043-.68.061-1.063.061-.75 0-1.35-.257-1.796-.78-.45-.52-.673-1.332-.673-2.438v-10.937h4.25v-1.86h-4.25v-4zm76.176 3c-.355 0-.687.058-1 .172a4.467 4.467 0 0 0-.874.437c-.262.18-.5.372-.72.579-.21.199-.39.387-.546.563a2.58 2.58 0 0 0-.625-.408 5.844 5.844 0 0 0-.875-.328 6.76 6.76 0 0 0-1.063-.234 6.945 6.945 0 0 0-1.14-.094c-1.031 0-1.93.138-2.688.408-.761.273-1.398.667-1.905 1.186a5.165 5.165 0 0 0-1.142 1.891c-.25.742-.375 1.578-.375 2.516 0 .543.063 1.07.188 1.577.132.5.328.97.578 1.407.25.43.554.809.921 1.14.364.325.783.587 1.251.783-.742.437-1.281.897-1.625 1.374-.336.468-.5 1.027-.5 1.672a2.773 2.773 0 0 0 .563 1.703c.175.219.367.414.578.579.207.156.421.28.64.374a6.494 6.494 0 0 0-1.531.47 4.76 4.76 0 0 0-1.296.811c-.375.344-.673.751-.892 1.22-.219.476-.328 1.034-.328 1.67 0 1.489.555 2.65 1.672 3.485 1.125.832 2.816 1.25 5.078 1.25 1.469 0 2.742-.148 3.828-.438 1.082-.28 1.977-.683 2.688-1.203.707-.523 1.234-1.155 1.578-1.905.343-.75.516-1.59.516-2.516 0-.7-.102-1.344-.298-1.937a3.91 3.91 0 0 0-.936-1.548c-.43-.426-.981-.757-1.657-1-.68-.25-1.5-.374-2.468-.374h-3.672c-.293 0-.562-.008-.812-.031a2.042 2.042 0 0 1-.642-.173 1.095 1.095 0 0 1-.422-.374c-.094-.164-.14-.38-.14-.642 0-.238.039-.457.125-.656a1.87 1.87 0 0 1 .328-.547c.145-.156.313-.296.5-.42.196-.134.398-.255.609-.36l.328.046c.144.012.298.024.454.032.156 0 .313.007.469.015h.437c.977 0 1.832-.14 2.562-.421.739-.282 1.348-.665 1.828-1.157.477-.5.837-1.085 1.079-1.765.25-.688.375-1.43.375-2.236 0-.925-.122-1.694-.36-2.311a6.247 6.247 0 0 0-.906-1.626c.207-.133.422-.234.64-.297a2.81 2.81 0 0 1 .75-.093c.227 0 .41.04.547.11a.746.746 0 0 1 .313.265c.082.117.141.234.172.36.031.124.047.25.047.374.3 0 .554-.038.765-.124.22-.094.396-.22.532-.376.145-.157.25-.332.312-.53.07-.208.11-.427.11-.657 0-.227-.043-.442-.125-.641a1.406 1.406 0 0 0-.36-.547 1.58 1.58 0 0 0-.593-.36 2.337 2.337 0 0 0-.845-.14zm-245.038.687a9.142 9.142 0 0 0-2.86.438 5.328 5.328 0 0 0-2.297 1.5c-.649.712-1.152 1.652-1.515 2.828-.367 1.168-.547 2.617-.547 4.344 0 1.593.18 2.953.547 4.078.363 1.125.866 2.047 1.515 2.766a5.869 5.869 0 0 0 2.344 1.578c.915.332 1.91.5 2.985.5.926 0 1.734-.094 2.421-.282.688-.175 1.258-.41 1.719-.702.457-.301.8-.633 1.03-1 .239-.375.36-.75.36-1.125 0-.29-.057-.54-.17-.75a1.451 1.451 0 0 0-.392-.516c-.367.668-.929 1.215-1.687 1.64-.75.419-1.625.625-2.625.625-1.742 0-2.997-.562-3.766-1.687-.762-1.133-1.14-2.852-1.14-5.157 0-1.445.094-2.648.281-3.61.188-.968.457-1.733.812-2.296.363-.57.798-.973 1.298-1.203a3.873 3.873 0 0 1 1.687-.358c.55 0 1.003.101 1.359.296.351.2.632.469.843.812.207.344.352.747.438 1.204.082.449.126.929.126 1.437.957 0 1.678-.148 2.17-.453.489-.313.735-.844.735-1.594 0-.563-.172-1.05-.516-1.469a3.973 3.973 0 0 0-1.312-1.03 6.535 6.535 0 0 0-1.828-.61 10.313 10.313 0 0 0-2.015-.204zm46.568 0c-2.305 0-4.078.766-5.328 2.297-1.243 1.531-1.86 3.813-1.86 6.844 0 1.406.172 2.664.516 3.765.343 1.106.833 2.04 1.47 2.798a6.231 6.231 0 0 0 2.374 1.735c.938.394 1.992.593 3.172.593.957 0 1.788-.106 2.5-.313.718-.207 1.312-.468 1.78-.78.477-.321.833-.673 1.063-1.048.238-.375.36-.726.36-1.062 0-.27-.07-.504-.203-.703-.125-.207-.266-.344-.422-.406-.188.305-.434.589-.734.858-.305.262-.653.5-1.048.72-.386.21-.82.375-1.296.5-.48.125-1 .187-1.562.187-.774 0-1.453-.124-2.047-.374a3.637 3.637 0 0 1-1.5-1.22c-.406-.55-.72-1.25-.938-2.093-.21-.852-.325-1.875-.344-3.063h10.813v-1.484c0-1.282-.157-2.407-.47-3.376-.312-.969-.761-1.773-1.343-2.421a5.552 5.552 0 0 0-2.125-1.453c-.836-.332-1.778-.5-2.828-.5zm22.38 0c-2.304 0-4.078.766-5.328 2.297-1.242 1.531-1.859 3.813-1.859 6.844 0 1.406.172 2.664.516 3.765.343 1.106.831 2.04 1.468 2.798a6.231 6.231 0 0 0 2.375 1.735c.937.394 1.992.593 3.172.593.957 0 1.79-.106 2.5-.313.719-.207 1.313-.468 1.782-.78.476-.321.831-.673 1.062-1.048.238-.375.36-.726.36-1.062 0-.27-.071-.504-.204-.703-.125-.207-.265-.344-.421-.406a3.93 3.93 0 0 1-.736.858c-.305.262-.651.5-1.046.72-.387.21-.82.375-1.297.5-.48.125-1 .187-1.563.187-.773 0-1.453-.124-2.047-.374a3.637 3.637 0 0 1-1.5-1.22c-.406-.55-.719-1.25-.937-2.093-.211-.852-.324-1.875-.343-3.063h10.811v-1.484c0-1.282-.155-2.407-.467-3.376-.313-.969-.762-1.773-1.344-2.421a5.556 5.556 0 0 0-2.126-1.453c-.836-.332-1.777-.5-2.828-.5zm80.827 0c-.805 0-1.558.06-2.265.172-.711.118-1.328.297-1.86.547-.53.25-.953.575-1.266.97-.304.386-.454.854-.454 1.405 0 .762.236 1.293.705 1.594.468.305 1.148.453 2.046.453 0-.5.035-.968.11-1.406.082-.437.226-.812.437-1.125.219-.312.52-.554.907-.734.382-.176.89-.265 1.514-.265.664 0 1.196.101 1.594.296.395.2.696.476.907.828.219.355.359.777.421 1.266.063.492.094 1.027.094 1.609v1.953l-2.703.093c-2.48.075-4.336.529-5.563 1.36-1.23.837-1.843 2.117-1.843 3.844 0 .887.125 1.657.375 2.313a4.437 4.437 0 0 0 1.062 1.61c.446.43.977.74 1.594.936a6.37 6.37 0 0 0 2.016.313c.675 0 1.254-.077 1.735-.234a4.254 4.254 0 0 0 1.28-.626c.383-.281.735-.61 1.048-.984.32-.383.656-.804 1-1.265h.265l.515 2.796h4.391v-1.36h-.094c-.367 0-.679-.034-.936-.108a1.225 1.225 0 0 1-.627-.375 1.739 1.739 0 0 1-.343-.72c-.074-.3-.11-.675-.11-1.124v-8.422c0-1.04-.124-1.914-.374-2.625-.25-.719-.625-1.296-1.125-1.734-.492-.445-1.106-.765-1.844-.953-.742-.195-1.609-.298-2.609-.298zm39.71 0c-.805 0-1.558.06-2.265.172-.711.118-1.328.297-1.86.547-.531.25-.953.575-1.266.97-.304.386-.454.854-.454 1.405 0 .762.236 1.293.704 1.594.47.305 1.149.453 2.047.453 0-.5.035-.968.11-1.406.082-.437.226-.812.437-1.125.219-.312.52-.554.906-.734.383-.176.89-.265 1.515-.265.664 0 1.196.101 1.594.296.395.2.696.476.907.828.219.355.358.777.421 1.266.063.492.094 1.027.094 1.609v1.953l-2.703.093c-2.48.075-4.336.529-5.563 1.36-1.23.837-1.843 2.117-1.843 3.844 0 .887.125 1.657.375 2.313a4.437 4.437 0 0 0 1.062 1.61c.446.43.977.74 1.594.936a6.37 6.37 0 0 0 2.016.313c.675 0 1.254-.077 1.735-.234a4.253 4.253 0 0 0 1.28-.626c.383-.281.735-.61 1.048-.984.32-.383.656-.804 1-1.265h.265l.515 2.796h4.391v-1.36h-.094c-.367 0-.679-.034-.936-.108a1.225 1.225 0 0 1-.627-.375 1.74 1.74 0 0 1-.343-.72c-.074-.3-.11-.675-.11-1.124v-8.422c0-1.04-.124-1.914-.374-2.625-.25-.719-.625-1.296-1.125-1.734-.492-.445-1.106-.765-1.844-.953-.742-.195-1.609-.298-2.609-.298zm26.44 0c-.523 0-1.016.044-1.485.126a4.353 4.353 0 0 0-2.516 1.344c-.374.387-.733.874-1.077 1.468h-.157l-.42-2.625h-5.25v1.36h.092c.363 0 .703.026 1.016.077.32.055.601.164.843.328.25.156.447.384.595.673.145.293.219.671.219 1.14v10.14c0 .5-.074.908-.219 1.22-.148.305-.34.539-.578.703a2.01 2.01 0 0 1-.844.328 6.029 6.029 0 0 1-1.032.078h-.265v1.359h8.735v-1.36h-.094c-.368 0-.711-.02-1.031-.062a2.229 2.229 0 0 1-.844-.297 1.632 1.632 0 0 1-.578-.671c-.149-.29-.219-.672-.219-1.14v-6.86c0-.696.066-1.36.202-1.985a5.208 5.208 0 0 1 .657-1.687c.312-.488.72-.875 1.22-1.156.5-.282 1.116-.423 1.859-.423.656 0 1.206.103 1.655.298.457.188.83.476 1.11.859.282.375.484.84.609 1.39.125.555.187 1.184.187 1.891v11.203h5.673v-1.36h-.125a5.81 5.81 0 0 1-1-.077c-.305-.05-.571-.16-.798-.328a1.62 1.62 0 0 1-.515-.703c-.117-.312-.172-.72-.172-1.22v-7.687c0-1.102-.125-2.054-.375-2.859-.25-.8-.609-1.457-1.077-1.969a4.172 4.172 0 0 0-1.72-1.14c-.668-.25-1.43-.376-2.28-.376zm-107.935.313v1.36h.094c.32 0 .598.026.829.077.226.055.428.149.608.282.187.136.349.313.485.532.133.218.265.5.39.843l4.25 14.312h2.58l4.593-13.578.577 2.141 3.876 11.437h2.593l4.188-13.5c.156-.539.313-.972.469-1.296.164-.332.336-.594.515-.782.188-.187.395-.312.625-.374a3.29 3.29 0 0 1 .829-.095h.42v-1.359h-6.953v1.36h.235c.727 0 1.27.132 1.625.39.351.25.532.656.532 1.218 0 .18-.032.423-.095.736a9.23 9.23 0 0 1-.219.875l-1.609 5.234a52.72 52.72 0 0 0-.812 2.75 24.37 24.37 0 0 0-.452 1.984h-.095c-.054-.27-.137-.598-.25-.984a75.043 75.043 0 0 0-.343-1.25c-.125-.437-.262-.88-.406-1.329-.149-.457-.283-.878-.408-1.264l-3.25-9.625h-2.046l-3.374 9.812c-.137.398-.275.812-.408 1.25-.136.43-.264.851-.39 1.266a32.11 32.11 0 0 0-.327 1.171c-.086.367-.153.684-.204.953h-.093l-.204-1c-.086-.406-.18-.836-.281-1.297-.106-.457-.215-.921-.329-1.39-.117-.469-.226-.895-.328-1.281l-1.531-5.454-.187-.75a3.09 3.09 0 0 1-.078-.655c0-.52.16-.877.484-1.064.332-.195.821-.297 1.47-.297h.42v-1.359zm130.08 1.266c1.05 0 1.797.35 2.235 1.046.445.7.671 1.778.671 3.235 0 .71-.054 1.32-.156 1.828-.093.512-.262.934-.5 1.266-.23.324-.527.57-.89.734-.367.156-.81.235-1.33.235-1.054 0-1.807-.32-2.265-.97-.46-.644-.687-1.66-.687-3.047 0-1.457.223-2.538.672-3.25.446-.718 1.195-1.077 2.25-1.077zm-191.564.156c.656 0 1.206.141 1.656.423.445.273.805.663 1.078 1.171.282.5.484 1.105.609 1.812.133.71.203 1.496.203 2.36h-7.468c.113-1.883.491-3.317 1.14-4.298.656-.976 1.583-1.468 2.782-1.468zm22.38 0c.656 0 1.207.141 1.657.423.445.273.803.663 1.077 1.171.281.5.485 1.105.61 1.812.132.71.202 1.496.202 2.36h-7.468c.114-1.883.492-3.317 1.14-4.298.657-.976 1.582-1.468 2.781-1.468zm83.78 7.156v2.625c0 .687-.107 1.313-.314 1.876a3.982 3.982 0 0 1-.858 1.437 3.775 3.775 0 0 1-1.36.891c-.53.211-1.124.312-1.78.312-.9 0-1.563-.25-2-.75-.43-.5-.642-1.255-.642-2.266 0-.633.082-1.195.25-1.687.164-.489.437-.899.812-1.235.383-.332.884-.586 1.501-.766.625-.187 1.394-.3 2.312-.343zm39.71 0v2.625c0 .687-.107 1.313-.314 1.876a3.982 3.982 0 0 1-.858 1.437 3.775 3.775 0 0 1-1.36.891c-.53.211-1.125.312-1.78.312-.9 0-1.563-.25-2.001-.75-.43-.5-.641-1.255-.641-2.266 0-.633.082-1.195.25-1.687.164-.489.437-.899.812-1.235.383-.332.884-.586 1.501-.766.625-.187 1.394-.3 2.312-.343zm44.444 8.61h3.187c.539 0 1.015.038 1.422.109.414.074.766.203 1.047.39a1.7 1.7 0 0 1 .625.751c.144.32.218.735.218 1.235 0 .57-.089 1.097-.265 1.577-.18.477-.492.891-.938 1.235-.437.352-1.038.628-1.796.827-.75.195-1.711.298-2.875.298-.825 0-1.508-.09-2.047-.266-.543-.168-.977-.402-1.297-.703a2.37 2.37 0 0 1-.657-1.062 4.442 4.442 0 0 1-.187-1.313c0-.648.097-1.171.297-1.578.207-.398.477-.711.813-.938.332-.218.71-.363 1.14-.437a6.925 6.925 0 0 1 1.313-.126zm-72.6 2.468v3H299.1v-3z"
+				/>
+			</symbol>
+		</svg>
+
+		<script src="js/index.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+		<script src="js/tsparticles.js" type="text/javascript"></script>
+	</body>
+</html>
