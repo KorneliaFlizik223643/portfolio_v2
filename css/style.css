@@ -18,7 +18,7 @@
 	--clr-dark: #000101;
 	--clr-accent: #eb98bf;
 	--clr-accent-glow: #f0bbd4;
-	--clr-accent-medium: #db2580;
+	--clr-accent-medium: #eb98bf;
 	--clr-accent-dark: #b03070;
 	--clr-base: #f7e9f3;
 	--clr-black: #000101;
@@ -674,7 +674,7 @@ header {
 	padding: 0 0.5em;
 	transform: translateY(0);
 	transition: transform 300ms ease-in-out;
-	color: var(--clr-accent-medium);
+	color: var(--clr-accent-dark);
 	font-size: 2rem;
 }
 
