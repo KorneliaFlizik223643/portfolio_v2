@@ -20,7 +20,7 @@
 	--clr-accent-glow: #16f8ed80;
 	--clr-accent-medium: #db2580;
 	--clr-accent-dark: #b03070;
-	--clr-base: #f9e1f0;
+	--clr-base: #f7e9f3;
 	--clr-black: #000101;
 
 	--fs-h1: 3rem;
@@ -806,7 +806,7 @@ header {
 
 /* Styles for wave spacers */
 .wave-spacer {
-	aspect-ratio: 960 / 200;
+	aspect-ratio: 1080 / 220;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -814,11 +814,11 @@ header {
 }
 
 .wave-base-to-black {
-	background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20400%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%200h800v100q-200%2050%20-400%200t-400%200V0z%22%20fill%3D%22%23f9e1f0%22%20/%3E%3Cpath%20d%3D%22M0%20100h800v80q-200%2040%20-400%200t-400%200V100z%22%20fill%3D%22%23f4d3e6%22%20/%3E%3Cpath%20d%3D%22M0%20180h800v80q-200%2030%20-400%200t-400%200V180z%22%20fill%3D%22%23efc5dc%22%20/%3E%3Cpath%20d%3D%22M0%20260h800v80q-200%2020%20-400%200t-400%200V260z%22%20fill%3D%22%23eab7d1%22%20/%3E%3Cpath%20d%3D%22M0%20340h800v80q-200%2010%20-400%200t-400%200V340z%22%20fill%3D%22%23e5a9c7%22%20/%3E%3Cpath%20d%3D%22M0%20420h800v80q-200%200%20-400%200t-400%200V420z%22%20fill%3D%22%23e09bbd%22%20/%3E%3Cpath%20d%3D%22M0%20500h800v100H0z%22%20fill%3D%22%23000000%22%20/%3E%3C/svg%3E');
+	background-image: url('../images/spacers/wave_1.svg');
 }
 
 .wave-black-to-base {
-	 background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%20800%20400%22%20xmlns%3D%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M0%20300h800v100H0z%22%20fill%3D%22%23000000%22%20/%3E%3Cpath%20d%3D%22M0%20200h800v100q-200%20-50%20-400%200t-400%200V200z%22%20fill%3D%22%239664a7%22%20/%3E%3Cpath%20d%3D%22M0%20140h800v60q-200%20-40%20-400%200t-400%200V140z%22%20fill%3D%22%23af7ebc%22%20/%3E%3Cpath%20d%3D%22M0%20100h800v40q-200%20-30%20-400%200t-400%200V100z%22%20fill%3D%22%23c49acc%22%20/%3E%3Cpath%20d%3D%22M0%2070h800v30q-200%20-20%20-400%200t-400%200V70z%22%20fill%3D%22%23d9b5db%22%20/%3E%3Cpath%20d%3D%22M0%2050h800v20q-200%20-10%20-400%200t-400%200V50z%22%20fill%3D%22%23eed1eb%22%20/%3E%3Cpath%20d%3D%22M0%2030h800v20q-200%20-10%20-400%200t-400%200V30z%22%20fill%3D%22%23f3daf1%22%20/%3E%3Cpath%20d%3D%22M0%200h800v30q-200%20-10%20-400%200t-400%200V0z%22%20fill%3D%22%23f9e1f0%22%20/%3E%3C/svg%3E');
+	background-image: url('../images/spacers/wave_2.svg');
 }
 
 
