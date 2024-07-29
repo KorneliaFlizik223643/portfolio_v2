@@ -809,7 +809,7 @@ header {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	aspect-ratio: 7 / 2;
+	aspect-ratio: 960 / 200;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -822,7 +822,7 @@ header {
 }
 
 .wave-black-to-base {
-	background-image: url('../images/spacers/wave_2.svg');
+	background-image: url('../images/spacers/wave2.svg');
 }
 
 .wave-spacer-narrow {
