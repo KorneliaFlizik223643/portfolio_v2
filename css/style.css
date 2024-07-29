@@ -825,11 +825,11 @@ header {
 }
 
 .wave-base-to-black {
-	background-image: url('../images/spacers/wave-base-black.svg');
+	background-image: url('../images/spacers/wave4.png');
 }
 
 .wave-black-to-base {
-	background-image: url('../images/spacers/wave-black-base.svg');
+	background-image: url('../images/spacers/wave3.png');
 }
 
 .wave-spacer-narrow {
@@ -841,9 +841,9 @@ header {
 }
 
 .wave-base-to-black-narrow {
-	background-image: url('../images/spacers/wave-base-black-narrow.svg');
+	background-image: url('../images/spacers/wave2.png');
 }
 
 .wave-black-to-base-narrow {
-	background-image: url('../images/spacers/wave-black-base-narrow.svg');
+	background-image: url('../images/spacers/wave1.png');
 }
