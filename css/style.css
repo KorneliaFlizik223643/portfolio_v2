@@ -354,7 +354,7 @@ header {
 /* Skills Section */
 .my-skills {
 	position: relative;
-	background-color: var(--clr-accent);
+	background-color: darkslateblue;
 	background-image: url('https://res.cloudinary.com/dsx50recn/image/upload/q_10/v1682056798/Portfolio%20Website/background_skills_full_bqufit.webp');
 	background-position: center;
 	background-size: cover;
