@@ -809,7 +809,7 @@ header {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	aspect-ratio: 1080 / 220;
+	aspect-ratio: 7 / 2;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -826,7 +826,7 @@ header {
 }
 
 .wave-spacer-narrow {
-	aspect-ratio: 734 / 100;
+	aspect-ratio: 7 / 1;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
