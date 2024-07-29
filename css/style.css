@@ -806,11 +806,15 @@ header {
 
 /* Styles for wave spacers */
 .wave-spacer {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	aspect-ratio: 1080 / 220;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	overflow: hidden; 
 }
 
 .wave-base-to-black {
