@@ -20,8 +20,8 @@
 	--clr-accent-glow: #16f8ed80;
 	--clr-accent-medium: #db2580;
 	--clr-accent-dark: #b03070;
-	--clr-base: #faebf7;
-	--clr-black: #2c2c2c;
+	--clr-base: #f7ee9f3;
+	--clr-black: #000101;
 
 	--fs-h1: 3rem;
 	--fs-h2: 2.25rem;
@@ -814,11 +814,11 @@ header {
 }
 
 .wave-base-to-black {
-	background-image: url('../images/spacers/wave4.png');
+	background-image: url('../images/spacers/wave_1.svg');
 }
 
 .wave-black-to-base {
-	background-image: url('../images/spacers/wave3.png');
+	background-image: url('../images/spacers/wave_2.svg');
 }
 
 .wave-spacer-narrow {
@@ -830,9 +830,9 @@ header {
 }
 
 .wave-base-to-black-narrow {
-	background-image: url('../images/spacers/wave2.png');
+	background-image: url('../images/spacers/wave_3.svg');
 }
 
 .wave-black-to-base-narrow {
-	background-image: url('../images/spacers/wave1.svg');
+	background-image: url('../images/spacers/wave_4.svg');
 }
