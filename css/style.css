@@ -821,6 +821,13 @@ header {
 	background-image: url('../images/spacers/wave_2.svg');
 }
 
+.wave-spacer-narrow {
+	aspect-ratio: 734 / 100;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
 
 .wave-base-to-black-narrow {
 	background-image: url('../images/spacers/wave_3.svg');
