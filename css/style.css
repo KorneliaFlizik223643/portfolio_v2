@@ -814,7 +814,7 @@ header {
 }
 
 .wave-base-to-black {
-	background-image: url('../images/spacers/wave_1.svg');
+	 background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h800v100q-200 50 -400 0t-400 0V0z" fill="%23f9e1f0" /><path d="M0 100h800v80q-200 40 -400 0t-400 0V100z" fill="%23f4d3e6" /><path d="M0 180h800v80q-200 30 -400 0t-400 0V180z" fill="%23efc5dc" /><path d="M0 260h800v80q-200 20 -400 0t-400 0V260z" fill="%23eab7d1" /><path d="M0 340h800v80q-200 10 -400 0t-400 0V340z" fill="%23e5a9c7" /><path d="M0 420h800v80q-200 0 -400 0t-400 0V420z" fill="%23e09bbd" /><path d="M0 500h800v100H0z" fill="%23000000" /></svg>');
 }
 
 .wave-black-to-base {
