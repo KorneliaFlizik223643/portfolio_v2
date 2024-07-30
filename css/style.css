@@ -16,10 +16,10 @@
 
 	--clr-light: #f7e9f3;
 	--clr-dark: #000101;
-	--clr-accent: #eb98bf;
-	--clr-accent-glow: #f0bbd4;
-	--clr-accent-medium: #eb98bf;
-	--clr-accent-dark: #b03070;
+	--clr-accent: #ebcfe4;
+	--clr-accent-glow: white;
+	--clr-accent-medium: #e0b5d6;
+	--clr-accent-dark: #c67fbc;
 	--clr-base: #f7e9f3;
 	--clr-black: #000101;
 
@@ -204,8 +204,9 @@ header {
 }
 
 .nav__link {
-	color: black; /* Text color */
-	font-weight: bold;
+	color: var(--clr-accent-dark)
+	font-weight: 600;
+	font-size: medium;
 	text-decoration: none;
 	position: relative; /* Position for pseudo-elements */
 }
@@ -215,17 +216,17 @@ header {
 	position: absolute;
 	height: 3px;
 	width: 50px;
-	background-color: black;
+	background-color: var(--clr-accent-dark);
 	bottom: -10px; /* Adjust position below the text */
 	left:50%;
 	transform: translateX(-50%);
 }
 
-nav__link:hover {
-    background-color: pink; /* Text color on hover */
+.nav__link:hover {
+    color: black; /* Text color on hover */
 }
 .nav__link:hover::after {
-    background-color: pink; /* Line color on hover */
+    background-color: black; /* Line color on hover */
 }
 
 /* Introduction Section */
