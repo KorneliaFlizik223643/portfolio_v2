@@ -211,17 +211,18 @@ header {
 }
 
 .nav__link::after {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 50px;
-    background-color: black; /* Line color */
-    bottom: -10px; /* Adjust position below the text */
-    left: 0;
+	content: '';
+	position: absolute;
+	height: 3px;
+	width: 50px;
+	background-color: black;
+	bottom: -10px; /* Adjust position below the text */
+	left:50%;
+	transform: translateX(-50%);
 }
 
 nav__link:hover {
-    color: pink; /* Text color on hover */
+    background-color: pink; /* Text color on hover */
 }
 .nav__link:hover::after {
     background-color: pink; /* Line color on hover */
