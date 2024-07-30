@@ -35,7 +35,7 @@
 
 @media (min-width: 800px) {
 	:root {
-		--fs-h1: 3.6rem;
+		--fs-h1: 3.4rem;
 		--fs-h2: 2.8rem;
 		--fs-h3: 1.5rem;
 		--fs-body: 1.125rem;
@@ -354,7 +354,7 @@ header {
 /* Skills Section */
 .my-skills {
 	position: relative;
-	background-color: darkslateblue;
+	/* background-color: darkslateblue; */
 	background-image: url('../images/skills_backgroud.png');
 	background-position: center;
 	background-size: cover;
