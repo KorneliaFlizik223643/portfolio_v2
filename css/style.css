@@ -204,7 +204,7 @@ header {
 }
 
 .nav__link {
-	color: var(--clr-accent-dark)
+	color: var(--clr-accent-dark);
 	font-weight: 600;
 	font-size: medium;
 	text-decoration: none;
