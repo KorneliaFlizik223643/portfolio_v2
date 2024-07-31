@@ -527,6 +527,23 @@ header {
 		grid-gap: 2em;
 	}
 }
+/* Additional styles for the read more functionality */
+#more-content {
+    display: none;
+}
+
+button {
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #FF1493;
+}
 
 /* About Me Section */
 .about-me {
