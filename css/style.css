@@ -59,7 +59,7 @@ body {
 }
 
 section {
-	padding: 1em 2em;
+	padding: 2em;
 	min-height: 80vh;
 }
 
@@ -306,18 +306,9 @@ header {
 }
 
 .section__title--skills {
+	margin-bottom: 1em;
 	color: var(--clr-accent);
 	position: relative;
-}
-
-.section__title--skills::after {
-	content: '';
-	display: block;
-	width: 2em;
-	height: 1px;
-	margin: 0.5em auto;
-	background: var(--clr-light);
-	opacity: 0.25;
 }
 
 .skills {
@@ -384,11 +375,6 @@ header {
 	background-color: var(--clr-black);
 	color: var(--clr-light);
 	text-align: center;
-}
-
-.section__title--projects {
-	margin-bottom: 1em;
-	color: var(--clr-accent);
 }
 
 .portfolio {
