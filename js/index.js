@@ -10,6 +10,11 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
+// Hide all 'more-content' elements on page load
+document.querySelectorAll('.more-content').forEach(content => {
+  content.style.display = 'none';
+});
+
 document.querySelectorAll('.read-more-btn').forEach(button => {
   button.addEventListener('click', function() {
     const moreContent = this.nextElementSibling;
