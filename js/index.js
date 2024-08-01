@@ -10,8 +10,9 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-document.getElementById('read-more-btn').addEventListener('click', function() {
-    var moreContent = document.getElementById('more-content');
+document.querySelectorAll('.read-more-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const moreContent = this.nextElementSibling;
     if (moreContent.style.display === 'none' || moreContent.style.display === '') {
         moreContent.style.display = 'block';
         this.textContent = 'Read Less';
@@ -19,6 +20,7 @@ document.getElementById('read-more-btn').addEventListener('click', function() {
         moreContent.style.display = 'none';
         this.textContent = 'Read More';
     }
+  });
 });
 
 const skillElements = document.querySelectorAll(".skill");
