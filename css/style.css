@@ -59,7 +59,7 @@ body {
 }
 
 section {
-	padding: 5em 2em;
+	padding: 2em;
 	min-height: 100vh;
 }
 
@@ -187,10 +187,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.8em;
-	position: absolute;
-	top: 0;
-	z-index: 1000;
+	padding: 1em;
 }
 
 .nav {
