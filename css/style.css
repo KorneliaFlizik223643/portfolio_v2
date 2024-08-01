@@ -59,8 +59,8 @@ body {
 }
 
 section {
-	padding: 2em;
-	min-height: 100vh;
+	padding: 1em 2em;
+	min-height: 80vh;
 }
 
 img {
@@ -738,15 +738,11 @@ header {
 
 /* Styles for wave spacers */
 .wave-spacer {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
 	aspect-ratio: 960 / 200;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
-	overflow: hidden; 
+	background-size: cover; 
 }
 
 .wave-base-to-black {
@@ -754,7 +750,7 @@ header {
 }
 
 .wave-black-to-base {
-	background-image: url('../images/spacers/wave2.svg');
+	background-image: url('../images/spacers/wave_4.svg');
 }
 
 .wave-spacer-narrow {
