@@ -750,7 +750,8 @@ header {
 }
 
 .wave-black-to-base {
-	background-image: url('../images/spacers/wave_4.svg');
+	background-color: black;
+	background-image: url('../images/spacers/wave2.svg');
 }
 
 .wave-spacer-narrow {
