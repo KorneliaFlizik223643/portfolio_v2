@@ -77,6 +77,11 @@ img {
 	text-decoration-line: underline;
 }
 
+/* Additional styles for the read more functionality */
+.more-content {
+    display: none;
+}
+
 /* Buttons */
 .btn {
 	display: inline-block;
@@ -498,10 +503,6 @@ header {
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 2em;
 	}
-}
-/* Additional styles for the read more functionality */
-#more-content {
-    display: none;
 }
 
 /* About Me Section */
