@@ -493,7 +493,7 @@ header {
 }
 
 .portfolio__description__img > a > img {
-	max-height: 600px;
+	max-height: 500px;
 	margin: 0 auto;
 }
 
@@ -518,6 +518,7 @@ header {
 }
 
 .about-me__body p {
+	font-size: smaller;
 	text-align: justify;
 }
 
@@ -555,7 +556,7 @@ header {
 	.about-me__img {
 		grid-area: img;
 		top: 2em;
-		max-height: 320px;
+		max-height: 400px;
 		position: relative;
 		z-index: 2;
 	}
