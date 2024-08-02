@@ -65,7 +65,7 @@ section {
 
 img {
 	display: block;
-	max-width: 100%;
+	max-width: 400px;
 }
 
 :focus {
@@ -479,7 +479,6 @@ header {
 .portfolio__description__img {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 }
 
