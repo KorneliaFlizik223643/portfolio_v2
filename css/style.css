@@ -60,7 +60,7 @@ body {
 
 section {
 	padding: 2em;
-	min-height: 80vh;
+	min-height: 70vh;
 }
 
 img {
@@ -558,7 +558,7 @@ header {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: end;
 	align-items: center;
 }
 
