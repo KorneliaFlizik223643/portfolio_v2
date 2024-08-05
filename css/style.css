@@ -165,13 +165,11 @@ h3 {
 .section__subtitle {
 	margin: 0;
 	font-size: var(--fs-h3);
+	font-weight:600;
 }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-	background: var(--clr-accent);
-	font-family: var(--ff-secondary);
-	padding: 0.25em 1em;
 	margin-bottom: 1em;
 }
 
@@ -284,12 +282,6 @@ header {
 
 	.section__subtitle--intro {
 		align-self: start;
-		grid-column: -1 / 1;
-		grid-row: 2;
-		text-align: right;
-		position: relative;
-		left: -1em;
-		width: calc(100% + 1em);
 	}
 }
 
